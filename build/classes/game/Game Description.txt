@@ -1,0 +1,23 @@
+Rojel’s Game
+
+The objective of the game at this stage is to get the fish collect all the pieces of fish food and avoid the poison bottles and grenades
+
+I have used a image for my background, fish, poison bottles, grenades and coral platforms which I found on Google.
+
+I have added a grenade which has adverse affects on the fish, (causes the fish to die, currently just ends the game) This is a dynamic body and meets criteria 1,3 & 5.
+
+The fish food is a pickup which is used as a scoring/tally system which the player can use to track progress. When the fish collides with the fish food the fishFoodCount is incremented by 1 and the gameScoreCount is also incremented by 1 , and also a message is printed to the console which notifies the player when they have collected the fish food and displays an updated game score. This is a dynamic body and meets criteria 1,3 & 5. 
+
+The Poison, which is illustrated as a green bottle in game, penalises the player for colliding with this object by decreases the gameScoreCount variable and also increments the poison count by 1, so the player can keep track of how much poison the player has collected in game, and is also presented with the new and updated game score. This is a dynamic body and meets criteria 1,3 & 5.
+
+The fish is also a dynamic body and main character of the game. Meets criteria 1,3 & 5.
+The fish collects the pickups (accessor) and depending on the pickup the penguin collides different actions happen such as increased fishFoodCount, or loosing points and having increased Poison counts - criteria 3
+
+To meet criteria 2 I have used images for my fish character and pickups such as the fish food and poison bottle and spike object (illustrated as a grenade in game). I have used the polygon editor to ensure all collisions are as realistic and accurate to the game environment as possible. i have also rendered the platforms using images of coral, and the coral has been purposely increased in size to emulate real life where a fish can be camouflaged with its environment and the background image is of an ocean to simulate the deep sea environment, and to make the game as realistic as possible.
+
+I have used keyboard controls in my game in order to control the characters such as using the arrow keys to make the fish - the main character - jump , go down or move left/right - Criteria 4
+Up arrow key = jump , Left arrow key = move penguin left , Right arrow key = move penguin right
+Down arrow key = move down faster than normal gravity
+
+
+SplashScreen-Image: game/fish_loading_screen_1.gif
